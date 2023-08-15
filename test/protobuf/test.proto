@@ -1,0 +1,59 @@
+syntax = "proto3"; // protobuf版本声明
+
+package fixbug; // 类似C++ namespace 代码所在的包
+
+option cc_generic_services = true; // 生成rpc服务类和rpc方法的描述，默认不生成
+
+message ResultCode
+{
+    bytes errnum = 1; // bytes替换string  减少字节和字符的编码转换
+    bytes errmsg = 2;
+}
+
+// 定义登陆消息类型 name pwd
+message LoginRequest
+{
+    bytes name = 1;
+    bytes pwd = 2; //定义字段
+    ResultCode rs = 3;
+    map<int32, string> test =4;
+}
+
+// 定义登陆消息响应类型 
+message LoginResponse
+{
+    ResultCode rs = 1;
+    bool success = 2;
+}
+
+message User
+{
+    bytes name =1;
+    uint32 age =2;
+    enum Sex
+    {
+        MAN=0;
+        WOMAN=1;
+    }
+    Sex sex = 3;
+}
+
+message GetFriendListRequest
+{
+    uint32 uid =1;
+    bool success =2;
+}
+
+message GetFriendListsResponse
+{
+    ResultCode rs =1;
+    repeated User friend_list =2; //定义列表类型
+}
+
+// protobuf 中 定义描述rpc方法的类型—— service
+
+service UserServiceRPC
+{
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc GetFriendList(GetFriendListRequest) returns(GetFriendListsResponse);
+}

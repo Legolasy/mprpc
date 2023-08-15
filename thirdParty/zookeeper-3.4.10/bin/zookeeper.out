@@ -1,0 +1,61 @@
+2023-08-15 16:04:58,453 [myid:] - INFO  [main:QuorumPeerConfig@134] - Reading configuration from: /home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../conf/zoo.cfg
+2023-08-15 16:04:58,455 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2023-08-15 16:04:58,455 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2023-08-15 16:04:58,455 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2023-08-15 16:04:58,456 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2023-08-15 16:04:58,461 [myid:] - INFO  [main:QuorumPeerConfig@134] - Reading configuration from: /home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../conf/zoo.cfg
+2023-08-15 16:04:58,461 [myid:] - INFO  [main:ZooKeeperServerMain@96] - Starting server
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=legolas-virtual-machine
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_362
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Private Build
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../build/classes:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../build/lib/*.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../lib/slf4j-api-1.6.1.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../lib/netty-3.10.5.Final.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../lib/log4j-1.2.16.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../lib/jline-0.9.94.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../zookeeper-3.4.10.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../src/java/lib/*.jar:/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin/../conf:
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2023-08-15 16:04:58,465 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2023-08-15 16:04:58,466 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2023-08-15 16:04:58,466 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2023-08-15 16:04:58,466 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=5.4.0-150-generic
+2023-08-15 16:04:58,466 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=legolas
+2023-08-15 16:04:58,466 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/legolas
+2023-08-15 16:04:58,466 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/legolas/桌面/mprpc/thirdParty/zookeeper-3.4.10/bin
+2023-08-15 16:04:58,469 [myid:] - INFO  [main:ZooKeeperServer@829] - tickTime set to 2000
+2023-08-15 16:04:58,469 [myid:] - INFO  [main:ZooKeeperServer@838] - minSessionTimeout set to -1
+2023-08-15 16:04:58,469 [myid:] - INFO  [main:ZooKeeperServer@847] - maxSessionTimeout set to -1
+2023-08-15 16:04:58,473 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2023-08-15 16:08:38,142 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:44138
+2023-08-15 16:08:38,145 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@942] - Client attempting to establish new session at /127.0.0.1:44138
+2023-08-15 16:08:38,147 [myid:] - INFO  [SyncThread:0:FileTxnLog@203] - Creating new log file: log.1
+2023-08-15 16:08:38,152 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@687] - Established session 0x189f83a01ef0000 with negotiated timeout 30000 for client /127.0.0.1:44138
+2023-08-15 16:26:08,965 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@368] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x189f83a01ef0000, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:750)
+2023-08-15 16:26:08,968 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1044] - Closed socket connection for client /127.0.0.1:44138 which had sessionid 0x189f83a01ef0000
+2023-08-15 16:26:38,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x189f83a01ef0000, timeout of 30000ms exceeded
+2023-08-15 16:26:38,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@486] - Processed session termination for sessionid: 0x189f83a01ef0000
+2023-08-16 00:07:50,142 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:40228
+2023-08-16 00:07:50,146 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@896] - Connection request from old client /127.0.0.1:40228; will be dropped if server is in r-o mode
+2023-08-16 00:07:50,146 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@942] - Client attempting to establish new session at /127.0.0.1:40228
+2023-08-16 00:07:50,152 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@687] - Established session 0x189f83a01ef0001 with negotiated timeout 30000 for client /127.0.0.1:40228
+2023-08-16 00:08:00,583 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:54924
+2023-08-16 00:08:00,583 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@896] - Connection request from old client /127.0.0.1:54924; will be dropped if server is in r-o mode
+2023-08-16 00:08:00,584 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@942] - Client attempting to establish new session at /127.0.0.1:54924
+2023-08-16 00:08:00,585 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@687] - Established session 0x189f83a01ef0002 with negotiated timeout 30000 for client /127.0.0.1:54924
+2023-08-16 00:08:00,587 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@486] - Processed session termination for sessionid: 0x189f83a01ef0002
+2023-08-16 00:08:00,587 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@368] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x189f83a01ef0002, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:750)
+2023-08-16 00:08:00,588 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1044] - Closed socket connection for client /127.0.0.1:54924 which had sessionid 0x189f83a01ef0002
+2023-08-16 00:08:11,137 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@368] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x189f83a01ef0001, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:750)
+2023-08-16 00:08:11,140 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1044] - Closed socket connection for client /127.0.0.1:40228 which had sessionid 0x189f83a01ef0001
+2023-08-16 00:08:42,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x189f83a01ef0001, timeout of 30000ms exceeded
+2023-08-16 00:08:42,003 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@486] - Processed session termination for sessionid: 0x189f83a01ef0001
